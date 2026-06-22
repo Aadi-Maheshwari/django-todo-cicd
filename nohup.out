@@ -1,0 +1,78 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+June 10, 2026 - 19:45:31
+Django version 4.2.30, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[10/Jun/2026 23:06:33] code 400, message Bad request version ('À\x13À')
+[10/Jun/2026 23:06:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+[10/Jun/2026 23:06:34] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x89&´=õ/Ûé°Ñ8öÕ}+\x8cÄq.\x96$~Y\x9fdTÁpeö\x9aQ\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À")
+[10/Jun/2026 23:06:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+[10/Jun/2026 23:26:41] code 400, message Bad request version ('À\x14À')
+[10/Jun/2026 23:26:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[10/Jun/2026 23:26:42] code 400, message Bad request syntax ('MGLNDD_65.2.191.203_8000')
+[10/Jun/2026 23:26:42] "MGLNDD_65.2.191.203_8000" 400 -
+Not Found: /icanhazip.com:443
+[11/Jun/2026 02:38:48] "CONNECT icanhazip.com:443 HTTP/1.1" 404 1803
+[11/Jun/2026 04:35:51] "GET / HTTP/1.1" 302 0
+[11/Jun/2026 04:35:52] "GET /todos HTTP/1.1" 301 0
+[11/Jun/2026 04:35:52] "GET /todos/ HTTP/1.1" 200 3515
+Not Found: /icanhazip.com:443
+[11/Jun/2026 04:59:21] "CONNECT icanhazip.com:443 HTTP/1.1" 404 1803
+Not Found: /icanhazip.com:443
+[11/Jun/2026 06:30:20] "CONNECT icanhazip.com:443 HTTP/1.1" 404 1803
+Not Found: /icanhazip.com:443
+[11/Jun/2026 08:24:25] "CONNECT icanhazip.com:443 HTTP/1.1" 404 1803
+Not Found: /icanhazip.com:443
+[11/Jun/2026 10:24:28] "CONNECT icanhazip.com:443 HTTP/1.1" 404 1803
+[11/Jun/2026 14:46:20] code 400, message Bad request version ('À\x14À')
+[11/Jun/2026 14:46:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+[11/Jun/2026 14:58:12] "GET / HTTP/1.1" 302 0
+[11/Jun/2026 14:58:12] "GET /todos HTTP/1.1" 301 0
+[11/Jun/2026 14:58:13] "GET /todos/ HTTP/1.1" 200 3515
+[11/Jun/2026 14:58:44] "GET / HTTP/1.1" 302 0
+[11/Jun/2026 14:59:28] code 400, message Bad request version ('wÀ¸éÎ')
+[11/Jun/2026 14:59:28] You're accessing the development server over HTTPS, but it only supports HTTP.
+[11/Jun/2026 15:00:19] code 400, message Bad request version ('À\x14À')
+[11/Jun/2026 15:00:19] You're accessing the development server over HTTPS, but it only supports HTTP.
+[11/Jun/2026 15:20:57] "GET / HTTP/1.1" 302 0
+[11/Jun/2026 15:20:57] "GET /todos HTTP/1.1" 301 0
+[11/Jun/2026 15:20:57] "GET /todos/ HTTP/1.1" 200 3515
+[11/Jun/2026 15:22:30] "GET / HTTP/1.1" 302 0
+[11/Jun/2026 15:24:42] code 400, message Bad request version ('À\x14À')
+[11/Jun/2026 15:24:42] You're accessing the development server over HTTPS, but it only supports HTTP.
+[11/Jun/2026 15:26:15] code 400, message Bad request version ('À\x14À')
+[11/Jun/2026 15:26:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+[11/Jun/2026 18:15:07] "GET / HTTP/1.1" 302 0
+[11/Jun/2026 18:15:08] "GET /todos HTTP/1.1" 301 0
+[11/Jun/2026 18:15:08] "GET /todos/ HTTP/1.1" 200 3515
+Not Found: /todos/favicon.ico
+[11/Jun/2026 18:15:09] "GET /todos/favicon.ico HTTP/1.1" 404 3204
+Not Found: /icanhazip.com:443
+[11/Jun/2026 21:51:36] "CONNECT icanhazip.com:443 HTTP/1.1" 404 1803
+Not Found: /icanhazip.com:443
+[12/Jun/2026 01:11:17] "CONNECT icanhazip.com:443 HTTP/1.1" 404 1803
+[12/Jun/2026 02:40:48] code 400, message Bad request version ('À\x14À')
+[12/Jun/2026 02:40:48] You're accessing the development server over HTTPS, but it only supports HTTP.
+[12/Jun/2026 02:40:49] code 400, message Bad request syntax ('MGLNDD_65.2.191.203_8000')
+[12/Jun/2026 02:40:49] "MGLNDD_65.2.191.203_8000" 400 -
+Not Found: /icanhazip.com:443
+[12/Jun/2026 03:43:10] "CONNECT icanhazip.com:443 HTTP/1.1" 404 1803
+[12/Jun/2026 07:04:19] "GET / HTTP/1.1" 302 0
+[12/Jun/2026 07:04:19] "GET /todos HTTP/1.1" 301 0
+[12/Jun/2026 07:04:19] "GET /todos/ HTTP/1.1" 200 3515
+Not Found: /icanhazip.com:443
+[12/Jun/2026 07:27:34] "CONNECT icanhazip.com:443 HTTP/1.1" 404 1803
+[12/Jun/2026 09:37:09] "GET /todos/ HTTP/1.1" 200 3515
+[12/Jun/2026 09:37:09] "GET /static/css/style.css HTTP/1.1" 200 225
+Not Found: /favicon.ico
+[12/Jun/2026 09:37:10] "GET /favicon.ico HTTP/1.1" 404 2573
